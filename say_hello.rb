@@ -1,7 +1,5 @@
 # Build your say_hello method here
 
-def say_hello(name="Ruby Programmer!")
-  puts "Hello, #{name}"
+def say_hello(name="Ruby Programmer")
+  puts "Hello #{name}!"
 end
-say_hello(ARGV[0])
-say_hello(ARGV.class)
